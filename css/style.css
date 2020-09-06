@@ -122,7 +122,7 @@ a:hover {
   }
 }
 .intro {
-  height: 100%;
+  height: 120%;
   background-color: #fff;
   background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
     url("../img/Background.jpg");
@@ -141,8 +141,10 @@ a:hover {
 @media (max-width: 767px) {
   .intro {
     padding-top: 100px;
+    height: 135%;
   }
 }
+
 .intro .intro-body {
   margin-top: 150px;
   font-family: Orbitron;
@@ -155,8 +157,13 @@ a:hover {
   margin-top: 50px;
   font-size: 20px;
 }
+
 .microsoft-logo img {
-  height: 40px;
+  height: 80px;
+}
+
+.kp-logo img {
+  height: 25px;
 }
 .intro h1,
 .intro p {
@@ -179,7 +186,10 @@ a:hover {
     font-size: 100px;
   }
   .microsoft-logo img {
-    height: 70px;
+    height: 90px;
+  }
+  .kp-logo img {
+    height: 40px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
@@ -321,7 +331,7 @@ ul.banner-social-buttons {
   }
 }
 
-.thanks-section img {
+.img-partner-1 img {
   height: 200px;
 }
 
@@ -334,6 +344,12 @@ footer {
 footer p {
   margin: 0;
 }
+
+.social-icons {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
@@ -431,4 +447,20 @@ body {
     padding-left: 15px;
     text-align: center;
   }
+}
+
+.row-jury-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 850px) {
+  .row-jury-1 {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.col-jury-1 {
+  margin: 0 35px;
 }
